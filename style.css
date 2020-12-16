@@ -361,6 +361,10 @@ h2{
 input[type=email].email{
     width: 100%;
 }
+input[type=email].submit{
+    width: 100%;
+}
+
 .footer {
 flex-direction: column;
 width: 100%;
