@@ -290,9 +290,15 @@ li a:hover{
     .main{
       padding: 10px;
     }
+    .header img{
+        width: 80%;
+    }
     .nav{
         position: relative;
         top: 10px;
+    }
+    .nav a{
+        padding: 5px;
     }
     .hero{
         display: flex;
