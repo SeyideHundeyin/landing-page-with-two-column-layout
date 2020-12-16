@@ -288,7 +288,7 @@ li a:hover{
 /* mobile  design*/
 @media (max-width: 1100px){
     .main{
-      padding: 20px;
+      padding: 10px;
     }
     .nav{
         position: relative;
@@ -324,7 +324,7 @@ input[type=submit]{
     background-repeat: no-repeat;
     background-size: contain;
     position: relative;
-    top: 90px;
+    top: 110px;
 }
 .second{
     flex-direction: 
@@ -343,9 +343,13 @@ h2{
     width: 100%;
 }
 .card{
-  width: 350px; 
+  width: 300px; 
   margin-top: 50px;
   margin: 0 auto;
+}
+.profile img{
+    max-width: 20%;
+
 }
 .third{
     flex-direction: column;
