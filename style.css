@@ -1,0 +1,389 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.main{
+    padding: 60px;
+    max-width: 1440px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav{
+    display: block;
+    list-style-type: none;
+    text-decoration: none;
+    display: flex;
+}
+
+.nav a{
+    text-decoration: none;
+    color:hsl(238, 22%, 44%);
+    padding: 10px;
+}
+h1{
+    padding-top: 90px;
+    color: hsl(243, 87%, 12%);
+    font-size: 34px;
+   font-family: 'Raleway', sans-serif;
+   font-weight: 700;
+    width: 80%;
+    line-height: 1.7;
+    margin-bottom: 10px;
+}
+.desc{
+    font-size: 18px;
+    width: 90%;
+    margin-bottom: 20px;
+}
+
+input[type=email]{
+    padding: 15px;
+    width: 300px;
+    margin-right: 10px;
+    cursor: text;
+    border-radius: 5px solid 1px;
+}
+
+input[type=submit]{
+padding: 15px;
+width: 190px;
+color: #fff;
+background-color: hsl(224, 93%, 58%);
+text-decoration: none;
+cursor: pointer;
+border: solid;
+border-radius: 5px;
+}
+input[type=submit]:hover{
+    opacity: 0.6;
+}
+
+.hero{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1340px;
+    width: 100%;
+    padding: 60px;
+    margin-bottom: 40px;
+}
+
+.hero_img img{
+    max-width: 110%;
+    height: auto;
+    margin-left: 80px;
+}
+
+/* second section */
+.image{
+    background-image: url('/images/bg-curve-desktop.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 30px;
+    position: relative;
+    top: 70px;
+}
+
+.second{
+    background-color: hsl(240, 75%, 98%);
+    position: relative;
+    display: flex;
+    padding: 60px;
+    padding-bottom: 120px;
+}
+
+.hero_2 img{
+    max-width: 100%;
+    height: auto;
+}
+
+
+h2{
+padding-top: 20px;
+color: hsl(243, 87%, 12%);
+font-size: 35px;
+font-family: 'Raleway', sans-serif;
+font-weight: 700;
+margin-bottom: 10px;
+}
+
+.first_desc, .second_desc{
+    width: 75%;
+    margin-bottom: 10px;
+}
+
+.link img{
+   position: relative;
+   top: 2px;
+   text-decoration: underline;
+}
+
+.link a{
+color: hsl(170, 45%, 43%);
+}
+
+.link a:hover{
+    opacity: 0.6;
+}
+
+.link{
+    margin-bottom: 30px;
+}
+
+.card{
+    background-color: white;
+    width: 400px;
+    padding: 30px;
+    box-shadow: rgba(149,157,165,0.2) 0px 8px 24px;
+    border-radius: 7px;
+}
+
+.quote_text{
+    margin-top: 4px;
+    font-size: 17px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.profile{
+    display: flex;
+}
+
+.profile img{
+    max-width: 15%;
+    height: auto;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.name{
+position: relative;
+top: 5px;
+}
+
+.hero_2 img{
+    max-width: 80%;
+    height: auto;
+    margin-left: 90px;
+    position: relative;
+    top: 50px;
+}
+
+.third{
+    padding: 60px;
+    background-color:  hsl(238, 22%, 44%);
+    display: flex;
+    justify-content: center;
+}
+
+.content_3 h3{
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.content_3 p{
+    color: #fff;
+    margin-top: 10px;
+    width: 52%;
+}
+
+input[type=email].email{
+padding: 10px;
+width: 90%;
+margin-bottom: 10px;
+border-radius: 7px solid 2px;
+}
+
+input[type=submit].submit{
+    padding: 10px;
+    border: none;
+}
+
+footer{
+    background-color: hsl(243, 87%, 12%);
+    padding: 60px;
+    padding-top: 100px;
+}
+.footer_logo{
+    margin-bottom: 20px;
+}
+
+.footer_contact_item{
+    display: flex;
+    flex-direction: row;
+    color: #fff;
+}
+
+.footer_contact_icon{
+    margin-right: 15px;
+    margin-bottom: 10px;
+}
+
+.footer_contact_text a {
+    text-decoration: none;
+    color: #fff;
+    margin-right: 300px;
+}
+
+
+.footer{
+    display: flex;
+}
+
+.footer_nav_item{
+    margin-right: 250px;
+}
+
+li{
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.socials a{ 
+text-decoration: none;
+color: #fff;
+text-align: center;
+}
+
+i{
+padding: 10px;
+border: 2px solid #fff;
+width: 40px;
+border-radius: 50%;
+margin-left: 3px;
+}
+
+
+li a:hover{
+    color:  hsl(224, 93%, 58%);
+}
+
+.socials i:hover {
+    color: hsl(224, 93%, 58%);
+    border: 2px solid hsl(224, 93%, 58%);
+}
+
+.attribution { 
+    font-size: 11px;
+    text-align: center; 
+    color: #fff;
+    margin-top: 80px;
+}
+.attribution a {
+         color: #fff;
+}
+
+/* mobile  design*/
+@media (max-width: 1100px){
+    .main{
+      padding: 20px;
+    }
+    .nav{
+        position: relative;
+        top: 10px;
+    }
+    .hero{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .hero_img img{
+        margin: 0 auto;
+    }
+    .content h1{
+        text-align: center;
+        width: 100%;
+        font-size: 25px;
+    }
+    .content p{
+        text-align: center;
+        font-size: 15px;
+        width: 100%;
+    }
+input[type=email]{
+    width: 100%;
+    margin-bottom: 10px;
+}
+input[type=submit]{
+    width: 100%;
+}
+
+.image{
+    background-image: url('/images/bg-curve-mobile.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    top: 90px;
+}
+.second{
+    flex-direction: 
+    column-reverse;
+}
+.hero_2 img{
+    max-width: 100%;
+    margin: 0 auto;
+    margin-bottom: 80px;
+}
+h2{
+    text-align: center;
+    font-size: 22px;
+}
+.first_desc, .second_desc{
+    width: 100%;
+}
+.card{
+  width: 350px; 
+  margin-top: 50px;
+  margin: 0 auto;
+}
+.third{
+    flex-direction: column;
+}
+.content_3 h3{
+    text-align: center;
+}
+.content_3 p{
+    text-align: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+input[type=email].email{
+    width: 100%;
+}
+.footer {
+flex-direction: column;
+width: 100%;
+}
+.footer_contact_text a{
+    margin-right: 0;
+}
+li{
+    margin-bottom: 30px;
+}
+.blog{
+    margin-top: 60px;
+}
+.socials a{
+    justify-content: center;
+    padding: 20px;
+    width: 100%;
+}
+i{
+    margin-top: 30px;
+    text-align: center;
+}
+.socials{
+    margin: 0 auto;
+}
+}
